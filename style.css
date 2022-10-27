@@ -211,3 +211,11 @@ label {
 
 
 }
+
+@media screen and (max-width:280px) {
+    .titulo {
+        font-size: 13px;
+    }
+
+
+}
