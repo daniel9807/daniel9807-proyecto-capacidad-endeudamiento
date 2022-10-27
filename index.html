@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de capacidad de endeudamiento</title>
+    <link
+      rel="shortcut icon"
+      href="./img/icons8-calculadora-80.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="cabeza">
+      <span class="titulo">Calcula tu Capacidad de Endeudamiento</span>
+    </header>
+    <div class="caja-calculadora">
+      <form action="" id="form">
+        <label for="">Ingresos mensuales</label>
+        <div class="input-icon">
+          <input
+            placeholder="Ingresos totales al mes"
+            class="inputs"
+            type="text"
+            id="ingresosTotales"
+          />
+          <span id="textoError1"></span>
+        </div>
+
+        <label for="">Gastos fijos</label>
+        <div class="input-icon">
+          <input
+            placeholder="Gastos o Deudas"
+            class="inputs"
+            type="text"
+            id="gastosFijos"
+          />
+          <span id="textoError2"></span>
+        </div>
+
+        <div class="caja-valor">
+          <i class="fa-solid fa-dollar-sign"></i>
+          <p id="texto"></p>
+        </div>
+
+        <div class="btn">
+          <input type="button" id="btnCalcular" value="Calcular" />
+        </div>
+      </form>
+    </div>
+
+    <script src="./capacidad-endeudamiento.js"></script>
+  </body>
+</html>
