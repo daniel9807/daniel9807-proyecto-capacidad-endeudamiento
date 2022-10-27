@@ -147,6 +147,22 @@ label {
     transition: all 0.25s;
 }
 
+.pie-pagina {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.pie-pagina a:hover {
+    color: #eccc68;
+}
+
+.pie-pagina a {
+    font-family: 16px;
+    color: #45aaf2;
+    text-decoration: none;
+}
+
 @keyframes typing {
     from {
         width: 0
